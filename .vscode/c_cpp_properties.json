@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "ESP-MATTER",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "includePath": [
+                "${workspaceFolder}/**",
+				"~/tools/esp-idf/components/**",
+                "~/tools/esp-matter/components/**",
+				"~/tools/esp-matter/connectedhomeip/connectedhomeip/**"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/**",
+                    "~/tools/esp-idf/components/**",
+					"~/tools/esp-matter/components/**",
+					"~/tools/esp-matter/connectedhomeip/connectedhomeip/**"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            }
+        }
+    ],
+    "version": 4
+}
